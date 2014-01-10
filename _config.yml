@@ -1,0 +1,16 @@
+markdown: rdiscount
+permalink: /:title/
+url: http://xiemingyuan.info
+name: 木木风铃的小站
+author: XMY
+qq: 1906899292
+email: xiemingyuan87@gmail.com
+duoshuo: mumufengling
+
+
+weibo: mumufengling
+github: mumufengling
+pygments: true
+safe: true
+paginate: 20
+about: "这里是 谢明远 的个人博客，创建于 2014 年， Jekyll @ GitHub。<br /><br />这里包含了部分个人的“折腾”过程、结论和成果，切换到分类模可以更快地找到感兴趣的内容，欢迎观赏、建议、拍砖……"
