@@ -31,4 +31,5 @@ void FixWordPressExportedXML(NSString *src, NSString *dst)
 		[data replaceOccurrencesOfString:@"&nbsp;" withString:@" " options:nil range:NSMakeRange(0, data.length)];
 		[data writeToFile:dst atomically:NO encoding:NSUTF8StringEncoding error:nil];
 	}
-}{% endhighlight %}
+}
+{% endhighlight %}
