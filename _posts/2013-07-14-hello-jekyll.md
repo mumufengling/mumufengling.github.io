@@ -13,7 +13,7 @@ GitHub上找了个[模板](http://webfrogs.me/2012/12/20/use-jekyll/)，花了�
 
 刚开始使用 Markdown 写东西，很不错。语法高亮可以使用 [Pygments](http://pygments.org/) ，[使用介绍在此](https://github.com/mojombo/jekyll/wiki/Liquid-Extensions)。例子效果如下：
 
-{% highlight objc linenos %}
+{% highlight  C++ %}
 
 void FixWordPressExportedXML(NSString *src, NSString *dst)
 {
