@@ -11,18 +11,20 @@ tags: 博客 Markdown 入门
 
 # 建立一篇新的博客，自动添加生成时间
     rake post title=yourTitle
-    注意：文章名不能用中文，想在网站上面让文章名显示中文的话，可以在生成的文档里面对title进行修改。
+  注意：文章名不能用中文，想在网站上面让文章名显示中文的话，可以在生成的文档里面对title进行修改。
 
 
 # Markdown常用语法
 以下摘自：[Markdown语法说明（简体中文）](http://wowubuntu.com/markdown/)
 ## 标题
-    # 一级标题
-    ## 二级标题
-    ### 三级标题
-    #### 四级标题
-    ##### 五级标题
-    ###### 六级标题
+```
+# 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+```
 ## 列表
 只需要在文字前面加上`-`就可以了
 
@@ -47,5 +49,5 @@ void main()
 {
   cout << "Hello World!" << endl;
   cout << "Welcome to C++ Programming" << endl;
-  }
+}
 {% endhighlight %}
