@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="木木风铃" />
-    <title>博客日常使用命令</title>
+    <title>常用命令及Markdown新手入门</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <link href="/feed/" rel="alternate" title="木木风铃" type="application/atom+xml" />
     <link rel="stylesheet" href="/media/css/style.css" />
@@ -14,7 +14,7 @@
     <div id="container">
       <div id="main" role="main">
         <header>
-        <h1>博客日常使用命令</h1>
+        <h1>常用命令及Markdown新手入门</h1>
         </header>
         <nav>
         <span><a title="网站首页" class="" href="/">首页</a></span>
@@ -46,7 +46,9 @@
   
   <a href="/tags/#博客" title="博客">博客</a>&nbsp;
   
-  <a href="/tags/#命令" title="命令">命令</a>&nbsp;
+  <a href="/tags/#Markdown" title="Markdown">Markdown</a>&nbsp;
+  
+  <a href="/tags/#入门" title="入门">入门</a>&nbsp;
   
 </span>
 
@@ -54,8 +56,64 @@
 <section class="post">
 <h1>建立一篇新的博客，自动添加生成时间</h1>
 
-<p>rake post title=title
-文章名不能用中文，想在网站上面让文章名显示中文的话，可以在生成的文档里面进行修改。</p>
+<pre><code>rake post title=yourTitle
+注意：文章名不能用中文，想在网站上面让文章名显示中文的话，可以在生成的文档里面对title进行修改。
+</code></pre>
+
+<h1>Markdown常用语法</h1>
+
+<p>以下摘自：<a href="http://wowubuntu.com/markdown/">Markdown语法说明（简体中文）</a></p>
+
+<h2>标题</h2>
+
+<pre><code># 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+</code></pre>
+
+<h2>列表</h2>
+
+<p>只需要在文字前面加上<code>-</code>就可以了</p>
+
+<p>如果你希望有序列表，也可以在文字前面加上 <code>1. 2. 3.</code></p>
+
+<p>注：<code>-、1.</code>和文本之间要保留一个字符的空格。</p>
+
+<h2>链接和图片</h2>
+
+<pre><code>链接：只需要使用 [显示文本](链接地址) 这样的语法即可
+图片：![](图片链接地址)
+</code></pre>
+
+<h2>引用</h2>
+
+<p>只需要在你希望引用的文字前面加上<code>&gt;</code>就好了</p>
+
+<h2>粗体和斜体</h2>
+
+<p>用两个 * 包含一段文本就是<strong>粗体</strong>的语法，用一个 * 包含一段文本就是<em>斜体</em>的语法。</p>
+
+<h2>代码区块</h2>
+
+<pre><code>只要简单地缩进 4 个空格或是 1 个制表符就可以。
+</code></pre>
+
+<h2>代码高亮</h2>
+
+<div class="highlight"><pre><code class="c++"><span class="cp">#include &lt;iostream&gt;</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+<span class="kt">void</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+  <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;Hello World!&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+  <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;Welcome to C++ Programming&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+  <span class="p">}</span>
+</code></pre></div>
+
+
+
 
 </section>
 <section align="right">
